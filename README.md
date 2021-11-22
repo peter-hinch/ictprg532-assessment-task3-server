@@ -3,7 +3,9 @@ Holmesglen TAFE - ICT50718 Diploma of Software Development - ICTPRG532 Apply Adv
 
 ## Assessment Task 3 - Server Application
 
+### API document
+https://github.com/peter-hinch/ictprg532-assessment-task3-server/wiki/API-Document
 ### Releases
 https://github.com/peter-hinch/ictprg532-assessment-task3-server/releases
-### Client Application
+### Client application
 https://github.com/peter-hinch/ictprg532-assessment-task3-client
