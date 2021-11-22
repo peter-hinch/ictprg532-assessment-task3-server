@@ -7,6 +7,7 @@ namespace AssessmentTask3Server.Models
 {
     public class HighScore
     {
+        public long Id { get; set; }
         public int Score { get; set; }
         public DateTime Date { get; set; }
     }
