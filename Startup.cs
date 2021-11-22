@@ -28,7 +28,7 @@ namespace AssessmentTask3Server
         public void ConfigureServices(IServiceCollection services)
         {
             // Add an in-memory database to suit HighScoreDbContext.
-            services.AddDbContext<DbContexts.DbContexts.HighScoreDbContext>(opt => opt.UseInMemoryDatabase("AssessmentTask3ServerDb"));
+            services.AddDbContext<DbContexts.HighScoreDbContext>(opt => opt.UseInMemoryDatabase("AssessmentTask3ServerDb"));
 
             services.AddControllers();
 
