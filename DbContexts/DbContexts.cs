@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 
 namespace AssessmentTask3Server.DbContexts
 {
-    public class DbContexts
+    public class HighScoreDbContext : DbContext
     {
-        public class HighScoreDbContext : DbContext
+        public HighScoreDbContext(DbContextOptions<HighScoreDbContext> options)
+            : base(options)
         {
-            public HighScoreDbContext(DbContextOptions<HighScoreDbContext> options) : base(options)
-            {
-            }
-
-            public DbSet<HighScore> HighScores { get; set; }
         }
+
+        public DbSet<HighScore> HighScores { get; set; }
     }
+
 }
