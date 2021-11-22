@@ -31,6 +31,10 @@ namespace AssessmentTask3Server
             services.AddDbContext<DbContexts.DbContexts.HighScoreDbContext>(opt => opt.UseInMemoryDatabase("AssessmentTask3ServerDb"));
 
             services.AddControllers();
+
+            // Register MVC framework
+            services.AddMvc();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AssessmentTask3Server", Version = "v1" });
